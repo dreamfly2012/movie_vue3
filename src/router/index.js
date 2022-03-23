@@ -13,7 +13,7 @@ const routes = [
     {
         path:'/cateogry',
         name:'Category',
-        component: ()=> import("../components/Home.vue")
+        component: ()=> import("../components/Category.vue")
     }
 ]
 
