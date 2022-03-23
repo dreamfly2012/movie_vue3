@@ -1,19 +1,16 @@
 <script setup>
-import { ref } from 'vue'
+import { reactive } from 'vue'
 
-defineProps({
-  msg: "category.vue",
-  title:"Category Page"
-})
+const data = reactive({ title: 'Category Page',  msg:'welcome to category page'})
 
-const count = ref(0)
+
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ data.msg }}</h1>
 
   <p>
-    {{title}}
+    {{data.title}}
   </p>
 
   

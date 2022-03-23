@@ -1,8 +1,8 @@
 <script setup>
-
 import { reactive } from 'vue'
 
-const data = reactive({ title: 'Home Page',  msg:'welcome to home page'})
+const data = reactive({ title: 'My Page',  msg:'welcome to my page'})
+
 
 </script>
 
@@ -12,6 +12,7 @@ const data = reactive({ title: 'Home Page',  msg:'welcome to home page'})
   <p>
     {{data.title}}
   </p>
+
   
 </template>
 
